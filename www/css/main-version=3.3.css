@@ -1,7 +1,7 @@
 /* 
 TABLE OF CONTENTS
 
-
+0. General Overrides
 1. Theme Variables
 2. Theme Mixins
 3. Bootstrap Override Styles
@@ -33,6 +33,9 @@ TABLE OF CONTENTS
 */
 
 
+/* 0. General Overrides */
+
+
 /* 1. Theme Variables */
 
 
@@ -54,6 +57,10 @@ TABLE OF CONTENTS
 
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
+.qty {
+    width:25%;
+}
 
 html {
     font-family: sans-serif;
